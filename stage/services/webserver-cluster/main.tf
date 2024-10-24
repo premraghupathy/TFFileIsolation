@@ -42,7 +42,7 @@ resource "aws_autoscaling_group" "prem_tf_asg" {
 	health_check_type = "ELB"
 
 	min_size=2
-	max_size=5
+	max_size=4
 	tag {
 	key = "Name"
 	value = "TF ASG launch.."

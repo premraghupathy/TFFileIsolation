@@ -9,5 +9,5 @@ variable "server_port" {
 
 variable "subnet_ids" {
 	type = list
-	default = ["subnet-0649540fd252af299", "subnet-04edb3ea22236883e" ]
+	default = ["subnet-0649540fd252af299", "subnet-0b18f02a369f36f77" ]
 }
